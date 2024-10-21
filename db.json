@@ -68,6 +68,115 @@
             "terms_and_conditions": "Valid for orders above $100 for standard shipping."
         }
     ],
+    "categories":[
+        {
+            "id": 2,
+            "title": "Smartphones & Tablets"
+        },
+        {
+            "id": 3,
+            "title": "Audio & Video"
+        },
+        {
+            "id": 4,
+            "title": "Gaming"
+        },
+        {
+            "id": 5,
+            "title": "Home & Kitchen"
+        },
+        {
+            "id": 6,
+            "title": "Office & Supplies"
+        },
+        {
+            "id": 7,
+            "title": "Books & Magazines"
+        },
+        {
+            "id": 8,
+            "title": "Music & Instruments"
+        },
+        {
+            "id": 9,
+            "title": "Health & Fitness"
+        },
+        {
+            "id": 10,
+            "title": "Clothing & Accessories"
+        },
+        {
+            "id": 11,
+            "title": "Travel & Outdoor"
+        },
+        {
+            "id": 12,
+            "title": "Toys & Games"
+        },
+        {
+            "id": 13,
+            "title": "Beauty & Personal Care"
+        },
+        {
+            "id": 14,
+            "title": "Sports"
+        },
+        {
+            "id": 15,
+            "title": "Automotive & Industrial"
+        }
+    ],
+    "blog_posts":[
+        {
+            "id": 2,
+            "title": "Enim Sunt Quasi",
+            "content": "Dolor ipsum est. Ut eius aut excepturi vitae mollitia ex consequatur rerum. Vero consequuntur iusto ut dolore facilis vel officia voluptas. Ut et repudiandae amet aut accusamus excepturi ut dolor fugiat. Itaque id id. Accusamus aut dolor sapiente ut. Quis ratione dolorum. Et asperiores minus. Occaecati quasi commodi iusto molestias voluptatibus quis nihil quia reiciendis. Ab eos sunt consequatur iste.",
+            "category": {
+                "id": 13
+            },
+            "status": "published",
+            "createdAt": "2023-10-24T04:36:09.985Z"
+        },
+        {
+            "id": 3,
+            "title": "Odit At Vel",
+            "content": "Excepturi sed magnam et culpa voluptas at non sunt. Aut qui et corporis optio consequatur enim. Quis accusantium aspernatur recusandae quaerat qui nihil fuga aperiam. Corrupti eveniet facere consequatur cum necessitatibus quas. Doloribus nesciunt quisquam. Modi dignissimos aut ea consectetur. Ex quia voluptatibus sed. Dolorum nostrum ut itaque beatae et fugit omnis ut quos. Doloremque expedita reiciendis velit dolore exercitationem velit. Dolores voluptas minima.",
+            "category": {
+                "id": 15
+            },
+            "status": "draft",
+            "createdAt": "2024-03-17T16:43:58.082Z"
+        },
+        {
+            "id": 4,
+            "title": "Fugit Nesciunt Impedit",
+            "content": "Quod odit nihil ducimus sit molestias et. Id explicabo architecto explicabo et hic. Dolor corrupti earum et quo. Quas at sunt rerum hic aut voluptatem odit error labore. Ratione nostrum provident. Laboriosam officiis velit sed nisi et quisquam excepturi eligendi. Inventore voluptatem architecto dolorem ab dolorem iure ab. Ex non expedita dignissimos assumenda et quasi est iusto. Dolor eligendi adipisci repellendus dolorem occaecati. Ducimus architecto maxime.",
+            "category": {
+                "id": 15
+            },
+            "status": "published",
+            "createdAt": "2023-10-01T04:13:25.424Z"
+        },
+        {
+            "id": 5,
+            "title": "Dolorum Qui Quae",
+            "content": "Aut et ducimus voluptas minus nesciunt et ea perferendis totam. Saepe omnis beatae ut. Odio voluptate iusto eos rerum ut. Nostrum voluptas velit omnis occaecati aliquid quasi quia aut. Neque in dignissimos alias aspernatur quisquam numquam qui est tempore. Sit iure assumenda doloribus quia quia et. Neque omnis laborum assumenda blanditiis ut sit minima. Ea harum sint quo ad. Reprehenderit harum tenetur. Et quae beatae eveniet optio cumque.",
+            "category": {
+                "id": 6
+            },
+            "status": "draft",
+            "createdAt": "2023-12-01T14:58:13.640Z"
+        },
+        {
+            "id": 6,
+            "title": "Minima Ut Aut",
+            "content": "Non rem nostrum. Ratione autem iusto rerum voluptatem ratione dolore corrupti. Est non est esse minima reprehenderit veritatis eum quis. Minus et temporibus animi nisi quas numquam. Aliquid inventore doloremque sequi quasi dicta non accusantium omnis. Qui laborum culpa et eum et rem nobis et. Laboriosam incidunt ut quas id ipsam distinctio non placeat dolores. Quia repellendus accusantium. Eum fugit sed recusandae dolorem perferendis. Distinctio beatae laudantium.",
+            "category": {
+                "id": 11
+            },
+            "status": "published",
+            "createdAt": "2024-01-11T05:08:27.403Z"
+        }],
     "profile": {
         "name": "typicode"
     }
