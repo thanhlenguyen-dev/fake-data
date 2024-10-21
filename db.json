@@ -1,0 +1,74 @@
+{
+    "vouchers": [
+        {
+            "id": "VCHR12345",
+            "code": "DISCOUNT20",
+            "description": "Get 20% off on your next purchase",
+            "discount_type": "percentage",
+            "discount_value": 20,
+            "valid_from": "2024-10-01",
+            "valid_to": "2024-12-31",
+            "min_purchase_amount": 50,
+            "max_discount_amount": 100,
+            "usage_limit": 100,
+            "used_count": 10,
+            "status": "active",
+            "applicable_products": [
+                "P123",
+                "P456",
+                "P789"
+            ],
+            "eligible_users": [
+                "user123",
+                "user456"
+            ],
+            "terms_and_conditions": "This voucher is valid only on orders above $50."
+        },
+        {
+            "id": "VCHR54321",
+            "code": "WELCOME50",
+            "description": "Flat $50 off for first-time users",
+            "discount_type": "fixed",
+            "discount_value": 50,
+            "valid_from": "2024-09-01",
+            "valid_to": "2024-11-30",
+            "min_purchase_amount": 200,
+            "max_discount_amount": 50,
+            "usage_limit": 500,
+            "used_count": 50,
+            "status": "expired",
+            "applicable_products": [
+                "P001",
+                "P002"
+            ],
+            "eligible_users": [
+                "new_user001",
+                "new_user002"
+            ],
+            "terms_and_conditions": "Applicable only for first-time users."
+        },
+        {
+            "id": "VCHR67890",
+            "code": "FREESHIP",
+            "description": "Free shipping on orders above $100",
+            "discount_type": "free_shipping",
+            "discount_value": 0,
+            "valid_from": "2024-10-15",
+            "valid_to": "2024-12-31",
+            "min_purchase_amount": 100,
+            "max_discount_amount": null,
+            "usage_limit": 200,
+            "used_count": 20,
+            "status": "active",
+            "applicable_products": [],
+            "eligible_users": [
+                "user789",
+                "user101"
+            ],
+            "terms_and_conditions": "Valid for orders above $100 for standard shipping."
+        }
+    ],
+    "profile": {
+        "name": "typicode"
+    }
+}
