@@ -48,8 +48,8 @@
             "terms_and_conditions": "Applicable only for first-time users."
         },
         {
-            "id": "VCHR67890",
-            "code": "FREESHIP",
+            "id": 1,
+            "code": "VCHFREESHIP1234",
             "description": "Free shipping on orders above $100",
             "discount_type": "free_shipping",
             "discount_value": 0,
@@ -66,10 +66,10 @@
                 "user101"
             ],
             "terms_and_conditions": "Valid for orders above $100 for standard shipping.",
-            "campaign_id": "CMP001"
+            "campaign_id": 1
         }
     ],
-    "categories":[
+    "categories": [
         {
             "id": 2,
             "title": "Smartphones & Tablets"
@@ -127,7 +127,7 @@
             "title": "Automotive & Industrial"
         }
     ],
-    "blog_posts":[
+    "blog_posts": [
         {
             "id": 2,
             "title": "Enim Sunt Quasi",
@@ -177,10 +177,12 @@
             },
             "status": "published",
             "createdAt": "2024-01-11T05:08:27.403Z"
-    }],
-    "campaigns":[
+        }
+    ],
+    "campaigns": [
         {
-            "id": "CMP001",
+            "id": 1,
+            "code": "HOLIDAY20",
             "name": "Holiday Discount Campaign",
             "description": "A special holiday discount campaign offering great deals during the festive season.",
             "start_date": "2024-12-01",
