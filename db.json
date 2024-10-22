@@ -65,7 +65,8 @@
                 "user789",
                 "user101"
             ],
-            "terms_and_conditions": "Valid for orders above $100 for standard shipping."
+            "terms_and_conditions": "Valid for orders above $100 for standard shipping.",
+            "campaign_id": "CMP001"
         }
     ],
     "categories":[
@@ -176,7 +177,20 @@
             },
             "status": "published",
             "createdAt": "2024-01-11T05:08:27.403Z"
-        }],
+    }],
+    "campaigns":[
+        {
+            "id": "CMP001",
+            "name": "Holiday Discount Campaign",
+            "description": "A special holiday discount campaign offering great deals during the festive season.",
+            "start_date": "2024-12-01",
+            "end_date": "2024-12-31",
+            "status": "active",
+            "number_of_vouchers": 1000,
+            "number_of_vouchers_redeemed": 500,
+            "target": "all"
+        }
+    ],
     "profile": {
         "name": "typicode"
     }
