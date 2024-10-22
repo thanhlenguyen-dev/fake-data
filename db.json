@@ -1,7 +1,7 @@
 {
     "vouchers": [
         {
-            "id": "VCHR12345",
+            "id": 1,
             "code": "DISCOUNT20",
             "description": "Get 20% off on your next purchase",
             "discount_type": "percentage",
@@ -22,10 +22,11 @@
                 "user123",
                 "user456"
             ],
-            "terms_and_conditions": "This voucher is valid only on orders above $50."
+            "terms_and_conditions": "This voucher is valid only on orders above $50.",
+            "campaign_id": 1
         },
         {
-            "id": "VCHR54321",
+            "id": 2,
             "code": "WELCOME50",
             "description": "Flat $50 off for first-time users",
             "discount_type": "fixed",
@@ -45,10 +46,11 @@
                 "new_user001",
                 "new_user002"
             ],
-            "terms_and_conditions": "Applicable only for first-time users."
+            "terms_and_conditions": "Applicable only for first-time users.",
+            "campaign_id": 1
         },
         {
-            "id": 1,
+            "id": 3,
             "code": "VCHFREESHIP1234",
             "description": "Free shipping on orders above $100",
             "discount_type": "free_shipping",
